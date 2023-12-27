@@ -7,13 +7,20 @@
 }
 
 .calculator {
+  background-color: lightslategray;
+  border: solid black;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+  width: 475px; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the calculator horizontally */
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
+
 .display {
+  background-color: white;
   border: solid;
   width: 400px;
   height: 50px;
@@ -39,7 +46,7 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
   width: 100px;
   cursor: pointer;
